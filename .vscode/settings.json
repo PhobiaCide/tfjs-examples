@@ -15,5 +15,8 @@
   "files.insertFinalNewline": true,
   "editor.detectIndentation": false,
   "editor.wrappingIndent": "none",
-  "clang-format.executable": "node_modules/.bin/clang-format"
+  "clang-format.executable": "node_modules/.bin/clang-format",
+  "markdown.extension.toc.omittedFromToc": {
+    "README.md": ["## Table of Contents"]
+  }
 }
